@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#tableMain {
+    border: 1px solid grey;
+    width: 99%;
+    margin:0 6px;
+}
+.lines {
+    display: flex;
+    border: 1px solid grey;
+}
+.colunns{
+    width: 100%;
+    padding: 15px 25px;
+}
+.colunns:nth-child(n + 2){
+    border-left: 1px solid grey;
+
+}
+#filter{
+    width: 205px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #84a;
+    color: #fff;
+    padding: 10px;
+    margin: 15px 0 6px 6px;
+}
